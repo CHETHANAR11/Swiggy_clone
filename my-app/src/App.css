@@ -1,0 +1,261 @@
+.star {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+    margin: 0 5px 0 0;
+}
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loadgif{
+    height: 25rem;
+    width: 30rem;
+}
+
+.swiggylogo{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 5rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffffff;
+    padding: 0 10rem 0 12rem;
+    box-shadow: 2px 4px #F7F8F8;
+}
+
+.headlink{
+    padding: 0 5rem;
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+.headlink:hover{
+    transform: scale(1.03);
+    color: #F8751A;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.grand-title{
+    text-align: center;
+}
+
+.restaurant-container{
+    margin: 0 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.restaurant-card{
+    width: 255px;
+    height: 18rem;
+    padding-left: 0.5rem;
+    /* border: 1px solid #F7F8F8;
+    border-radius: 2rem; 
+    box-shadow: 2px 4px #F7F7F7; */
+}
+
+.rest-det{
+    margin-top: 1rem;
+}
+
+.main-card{
+    padding: 1rem;
+}
+
+.restaurant-card img{
+    width:15rem;
+    height:10rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    filter: sepia(20%) contrast(120%) brightness(90%);
+}
+
+.restaurant-card img:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.homebtns{
+    display: flex;
+    gap: 20px;
+    margin: 2rem 14rem;
+}
+
+.topbutton{
+    width: 15%;
+    border-radius: 2rem;
+    border: 2px solid #E2E2E7;
+    background-color: #ffffffff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.topbutton:hover{
+    transform: scale(1.03);
+    border: 2px solid #F8751A;
+}
+
+.searchinput{
+    padding: 0.5rem 1rem;
+    width: 25%;
+    border-radius: 2rem;
+    border: 2px solid #E2E2E7;
+    background-color: #ffffffff;
+}
+
+.fa-magnifying-glass{
+    margin-left: 25rem;
+    margin-top: 0.5rem;
+}
+
+.headlink{
+    text-decoration: none;
+}
+
+.category-container{
+    border-bottom: 1.2rem solid #F1F1F6;
+    padding: 2rem;
+}
+
+.cardlink{
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.cardlink:hover{
+    transform: scale(0.96);
+}
+
+.rest-detail{
+    margin: 2rem 20rem;
+    padding: 2px;
+}
+
+.detail-name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.detail-det{
+    color: #7E808C;
+}
+
+.restaurant-card .detail-det{
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top-det-box{
+    margin:2rem 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    border-bottom:2px dashed #7E808C ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rating-box{
+    border:1px solid black;
+    padding: 0.5rem;
+}
+
+.rating-box-rat{
+    border-bottom: 1px solid black;
+}
+
+.food-card{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    border-bottom: 1px solid #7E808C;
+    padding: 3rem 2rem;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+.food-img{
+    width: 7rem;
+    height: 6rem;
+    border-radius: 10px;
+}
+
+.food-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.detail-head{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.add-btn {
+    font-weight: bold;
+    width: 7rem;
+    margin-top: auto;
+    background-color: #ffffffff;
+    color: #60B246;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #7E808C;
+  }
+  
+  .add-btn:hover {
+    box-shadow: 0 8px 8px 0 #7E808C;
+  }
+
+.cart-img{
+    width: 30rem;
+    height: 25rem;
+}
+
+.cart, .help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cart-btn{
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+.cartbtn{
+    background-color: #F8751A;
+    border: 1px solid #ffffffff;
+    padding: 0.5rem;
+}
+
+.help{
+    margin-top: 10rem;
+}
+
+.help-title:hover{
+    color: #F8751A;
+}
